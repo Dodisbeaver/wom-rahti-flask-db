@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-
+# decorator och function definition
 @app.route("/")
 def index():
     ret = { 
